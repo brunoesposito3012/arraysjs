@@ -2,10 +2,10 @@
 let titulo = document.querySelector('h1'); //document.querySelect('h1') para conectar ao elemento h1 do HTML
 titulo.innerHTML = 'Hora do Desafio!';
 
-//criar a função verificarclick que esta no HTML no onclick
+//criar a função verificarClick que está no HTML no onclick
 function verificarClick(){
     console.log('O botão foi clicado');
-};// a função criada vai aprensentar uma mensagem no console sempre que for clicado no boto consoler
+}; // a função criada vai apresentar uma mensagem no console sempre que for clicado
 
 function mensagemAlert(){
     alert('Eu amo JS');
